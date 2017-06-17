@@ -1,0 +1,167 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ресторан ПІРОСМАНІ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">  
+    
+    <link href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="scripts/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Icons -->
+    <link href="scripts/icons/general/stylesheets/general_foundicons.css" media="screen" rel="stylesheet" type="text/css" />  
+    <link href="scripts/icons/social/stylesheets/social_foundicons.css" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 8]>
+        <link href="scripts/icons/general/stylesheets/general_foundicons_ie7.css" media="screen" rel="stylesheet" type="text/css" />
+        <link href="scripts/icons/social/stylesheets/social_foundicons_ie7.css" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link rel="stylesheet" href="scripts/fontawesome/css/font-awesome.min.css">
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="scripts/fontawesome/css/font-awesome-ie7.min.css">
+    <![endif]-->
+
+    <link href="http://fonts.googleapis.com/css?family=Allura" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Palatino+Linotype" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet" type="text/css">
+
+    <link href="styles/custom.css" rel="stylesheet" type="text/css" />
+    <script src="email/validation.js" type="text/javascript"></script>
+</head>
+<body id="pageBody">
+
+<div id="decorative2">
+    <div class="container">
+
+        <div class="divPanel topArea notop nobottom">
+            <div class="row-fluid">
+                <div class="span12">
+
+                    <div id="divLogo" class="pull-left">
+                        <a href="index.html" id="divSiteTitle"><img src="images/logo3.png"></a><br />
+                        <a href="index.html" id="divTagLine"></a>
+                    </div>
+
+                    <div id="divMenuRight" class="pull-right">
+                    <div class="navbar">
+                        <button type="button" class="btn btn-navbar-highlight btn-large btn-primary" data-toggle="collapse" data-target=".nav-collapse">
+                            НАВІГАЦІЯ <span class="icon-chevron-down icon-white"></span>
+                        </button>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav nav-pills ddmenu">
+                                <li class="dropdown"><a href="index.html">Головна</a></li>
+                                <li class="dropdown"><a href="about.html">Про нас</a></li>
+                                <li class="dropdown"><a href="page.html" class="dropdown-toggle">Меню</a></li>
+                                <li class="dropdown"><a href="gallery.html">Галерея</a></li>
+                                <li class="dropdown active"><a href="contact.html">Контакти</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="contentOuterSeparator"></div>
+
+<div class="container">
+
+    <div class="divPanel page-content">
+
+        <div class="breadcrumbs">
+                <a href="index.html">Головна</a> &nbsp;/&nbsp; <span>Наші контакти</span>
+            </div> 
+
+        <div class="row-fluid">
+                <div class="span8" id="divMain">
+
+                    <h1>Написати нам</h1>
+                    <h3 style="color:#FF6633;"><?php echo $_GET[msg];?></h3>
+                    <hr>
+            <!--Start Contact form -->                                                      
+<form name="enq" method="post" action="email/" onsubmit="return validation();">
+  <fieldset>
+    
+    <input type="text" name="name" id="name" value=""  class="input-block-level" placeholder="Ім'я" />
+    <input type="text" name="email" id="email" value="" class="input-block-level" placeholder="Email" />
+    <textarea rows="11" name="message" id="message" class="input-block-level" placeholder="Коментар"></textarea>
+    <div class="actions">
+    <input type="submit" value="Відправте ваше повідомлення" name="submit" id="submitButton" class="btn btn-info pull-right" title="Click here to submit your message!" />
+    </div>
+    
+    </fieldset>
+</form>                  
+            <!--End Contact form -->                                             
+                </div>
+                
+            <!--Edit Sidebar Content here-->    
+                <div class="span4 sidebar">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2704.5115748226062!2d24.708306128791047!3d48.91913692786228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x133074a85ae7a4e6!2z0J_RltGA0L7RgdC80LDQvdGW!5e0!3m2!1suk!2sua!4v1497651700359" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            <!--/End Sidebar Content-->
+                
+                
+            </div>          
+
+        <div id="footerInnerSeparator"></div>
+    </div>
+
+</div>
+
+<div id="footerOuterSeparator"></div>
+<div id="divFooter" class="footerArea">
+    <div class="container">
+                    <div class="footercont">
+                        <i class="general foundicon-phone icon"></i>
+                        <span class="field">Резервування столиків за телефоном +38 (068) 402 56 50</span>
+                    </div>                        
+                        
+                    <div class="footercont">
+                        <i class="general foundicon-mail icon"></i>
+                        <span class="field">Email: </span>
+                        <a href="pirosmany@gmail.com" title="Email">pirosmany@gmail.com</a>
+                    </div>
+
+                    <div class="footercont">
+                        <i class="general foundicon-home icon" style="margin-bottom:50px"></i>
+                        <span class="field">Адреса: </span>
+                        вул.Січових Стрільців, 15, м.Івано-Франківськ                           
+                    </div>
+    </div>
+         
+    <div class="row-fluid">
+        <div class="span12" id="social_net">
+            <p class="social_bookmarks">
+                <a href="https://www.facebook.com/ifpirosmani/?fref=ts"><image src="images/icons/facebook-icon.png"></a>
+                <a href="https://www.instagram.com/pirosmani_if/"><image src="images/icons/instagram-icon.png"></a>
+                <p class="copyright">Copyright © 2017 Pirosmany. All Rights Reserved.</p>
+                <span>Vasyl Hreida, 2017</span>
+                </p>
+        </div>
+    </div>
+</div>
+
+
+<script src="scripts/jquery.min.js" type="text/javascript"></script> 
+<script src="scripts/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="scripts/default.js" type="text/javascript"></script>
+
+
+
+
+
+</body>
+</html>
