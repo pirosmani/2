@@ -61,7 +61,7 @@ position: relative;
 display: block; margin-left: auto; margin-right: auto;
 }
 
-#tiles li img {margin: auto; width: auto; display: block; margin-left: auto; margin-right: auto border-radius: 6px;
+#tiles li img {margin: auto; width: auto; display: block; margin-left: auto; 
     text-align: center; position: absolute; padding: 0.1%;}
 
 /* Icons */
@@ -297,7 +297,10 @@ a.btn, a.btn-large, a.btn-small, a.btn-mini {color:#333}
 #divHeaderText {border-color: rgb(51, 51, 51); padding-top: 50px; padding-bottom: 0px;;;;}
 
 #logo1 {position: relative;
-    left: 55%;}
+    float: center;
+    margin-left: : auto;
+    margin-right: auto;
+}
 
 #decorative1 {-webkit-background-size:auto;-moz-background-size:auto;-o-background-size:auto;background-size:auto;}
 
@@ -409,7 +412,7 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'Op
     #divSiteTitle {font-size: 25px;}
 
     
-    #divHeaderText {margin:0px;padding:10px 0px;}
+    #divHeaderText {margin:auto; padding: 0px 0px;}
    
     #divHeaderLine1 {margin-top: 0px;}
      
