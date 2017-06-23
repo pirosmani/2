@@ -144,7 +144,7 @@ img {max-width:100%;height:auto;width:auto;-moz-box-sizing:border-box;-webkit-bo
 #divHeaderLine1, #divHeaderLine2, #divHeaderLine3 {
     padding-top:3px !important;
     padding-bottom:3px !important;
-    text-align:inherit !important;
+    text-align:center !important;
 }
 
 #decorative2 {/*opacity:0.95;*/
@@ -260,7 +260,7 @@ h1 {font-family: 'Open Sans'; font-weight: normal; font-style: normal; font-size
 
 #decorative2{height: 5%; background-color: rgb(255, 255, 255);}
 
-#divFooter {font-family: 'Open Sans', sans-serif; background-color: rgb(18, 18, 18); color: rgb(180, 173, 173); padding-top: 32px; line-height: 23px; font-size: 12px; text-transform: none; background-image: url(backgrounds/noisy_net.png); background-repeat: repeat repeat;}
+#divFooter {font-family: 'Open Sans', sans-serif; background-color: rgb(18, 18, 18); color: rgb(180, 173, 173); padding-top: 12px; line-height: 23px; font-size: 12px; text-transform: none; background-image: url(backgrounds/noisy_net.png); background-repeat: repeat repeat;}
 
 #divFooter a {color: rgb(132, 164, 51);}
 
@@ -296,11 +296,11 @@ a.btn, a.btn-large, a.btn-small, a.btn-mini {color:#333}
 
 #divHeaderText {border-color: rgb(51, 51, 51); padding-top: 50px; padding-bottom: 0px;;;;}
 
-#logo1 {position: relative;
+/*#logo1 {position: relative;
     float: center;
     margin-left: : auto;
     margin-right: auto;
-}
+}*/
 
 #decorative1 {-webkit-background-size:auto;-moz-background-size:auto;-o-background-size:auto;background-size:auto;}
 
@@ -465,16 +465,16 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'Op
 #mnu {display: block; margin:10px 0px; margin-left: auto; margin-right: auto;}
 
 
-.footercont{overflow:auto;float: left;margin: auto;padding: 2%; font-size: 14px;}
+.footercont{overflow:auto;float: left;margin: auto;padding: 1%; font-size: 14px;}
 #social_net{padding-left: 5%;}
 #divMain{float: center; overflow:auto;margin: auto; width: 100%;}
 #gridArea{
     /*border: solid 1px black;*/
     float: center;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 10%;
     display: block;
-    padding: 0px;
+    /*padding: 0px;*/
 }
 .span4 .sidebar{margin: auto; display: block; margin: auto; float: center; overflow:auto;}    
 

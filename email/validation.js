@@ -3,7 +3,7 @@
  {
     
 	var contactname=document.enq.name.value;
-	var name_exp=/^[A-Za-z\s]+$/;
+	var name_exp=/^[A-Za-zА-ь\s]+$/;
 	if(contactname=='')
 	{
 		alert("Name Field Should Not Be Empty!");
